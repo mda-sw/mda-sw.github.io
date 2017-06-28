@@ -24,7 +24,7 @@ on greyscale values) within specified thickness bands of coarse aggregate.
 
 The aggregate/paste/ITZ is examined using back-scattered electron (bse) 
 images of polished sections of concrete.  Such Scanning Electron Microscope
-(SEM) images are subject to significant speckle.  <a href="s702nz_512_he.gif">
+(SEM) images are subject to significant speckle.  <a href="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_512_he.gif">
 Fig. 1</a> shows an example, which is a 512x512 cutout of a larger 
 1024x1024 image, here shown histogram-equalized.  
 
@@ -42,7 +42,7 @@ Speckle is multiplicative noise, and is typical of synthetic aperture
 radar (SAR) or acoustic images. The statistical modeling of speckle is
 discussed in Section 5.3 of MR (1999).  We used the MR/1 package (MR, 1999) 
 to  despeckle the image shown in Fig. 1.  The result is shown in 
-<a href="s702nz_n3_t2_512_he.gif">Fig. 2</a> for  the same 512x512 
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_n3_t2_512_he.gif">Fig. 2</a> for  the same 512x512 
 area.  Despeckling the 1024x1024 image takes a few seconds elapsed time 
 on a Sun UltraSparc 10.  A wavelet transform is used, with noise 
 modeling, to allow for speckle filtering on a range of resolution 
@@ -56,17 +56,17 @@ histogram-equalized to improve the contrast.
 
 <p>
 
-<img src="s702nz_64_he.gif">
-<img src="s702nz_n3_t2_64_he.gif">
+<img src="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_64_he.gif">
+<img src="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_n3_t2_64_he.gif">
 
 <p>
 
 The difference in intensity distribution in these images is quite
-significant.  <a href="s702nz_hist_plot.gif">Fig. 3</a> shows the 
+significant.  <a href="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_hist_plot.gif">Fig. 3</a> shows the 
 intensity distribution of the given SEM image.  It is clear than there
 is little by way of heuristic pointers towards where one should place 
 thresholds leading to image segmentation.  
-<a href="s702nz_n3_t2_hist_plot.gif">Fig. 4</a> shows the intensity 
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/multires/s702nz_n3_t2_hist_plot.gif">Fig. 4</a> shows the intensity 
 distribution, again based on the 1024x1024 image, following filtering
 to remove speckle.  Here, the distribution is much more amenable to the 
 fitting of Gaussians.  

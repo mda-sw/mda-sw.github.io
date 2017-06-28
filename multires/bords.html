@@ -1,6 +1,6 @@
 <HTML>
 <HEAD><title>Multiresolution Applications: Edge Detection</title></HEAD>
-<BODY background="background.gif">
+<BODY background="https://raw.githubusercontent.com/mda-sw/library/master/multires/background.gif">
 <h1>MR/1 Edge Detection</h1>
 
 
@@ -8,11 +8,11 @@
 <li> ERS SAR and SeaWiFS images of the Gulf of Oman containing several
 spiral features.  
 <p>
-<a href="wa-background.txt">Background description.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/multires/wa-background.txt">Background description.</a>
 <p>
-<a href="../pic/Qubsar.jpg">Original SAR image.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/Qubsar.jpg">Original SAR image.</a>
 <p>
-<a href="../pic/Qubsar-lev4.jpg">SAR image superimposed on
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/Qubsar-lev4.jpg">SAR image superimposed on
 edge image.</a>
 <p>
 Commands used here:
@@ -33,9 +33,9 @@ IDL> s5 = readfits('zero2.fits')
 IDL> write_jpeg,'Qubsar-lev4.jpg',bytscl(hist_equal(100*s3+20*s2+a))
 </pre>
 <p>
-<a href="../pic/Qubsw.jpg">Original SeaWiFS image.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/Qubsw.jpg">Original SeaWiFS image.</a>
 <p>
-<a href="../pic/Qubsw-lev5.jpg">Original SeaWiFS image superimposed on 
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/Qubsw-lev5.jpg">Original SeaWiFS image superimposed on 
 edge image.</a>
 <p>
 Commands used:
@@ -49,7 +49,7 @@ a5 = readfits('zero5.fits')
 write_jpeg,'Qubsw-lev5.jpg',bytscl(hist_equal(a5+0.0005*a))
 </pre>
 <p>
-<a href="../pic/Qubsw_med_s5.jpg">Level 5 of a multiscale median 
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/Qubsw_med_s5.jpg">Level 5 of a multiscale median 
 transform.</a>
 <p>
 Commands used:
@@ -63,11 +63,11 @@ a 500x1000 image).  Scale or band 5 is shown above.
 <li> A SAR agricultural image used in Chris Glasbey's Royal Statistical
 Society paper.
 <p>
-<a href="../pic/sar-proc1.jpg">Original image.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/sar-proc1.jpg">Original image.</a>
 <p>
-<a href="../pic/sar-proc5.jpg">Second derivative map (sar-proc5 below).</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/sar-proc5.jpg">Second derivative map (sar-proc5 below).</a>
 <p>
-<a href="../pic/sar-proc4.jpg">Zero crossings superimposed on original 
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/sar-proc4.jpg">Zero crossings superimposed on original 
 image (sar-proc4 below).</a>
 <p>
 Commands used:
@@ -86,12 +86,12 @@ write_jpeg,'sar-proc5.jpg',bytscl(zz4<0.005)  (Slightly retouched in xv)
 </pre>
 <p>
 
-<li> Image used for processing - <a href="../pic/asmi14cutout.jpg">part 
+<li> Image used for processing - <a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/asmi14cutout.jpg">part 
 of the image (identification removed).</a>
 <p>
-<a href="../pic/heart_e1.jpg">Scale 4 of second derivative map.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/heart_e1.jpg">Scale 4 of second derivative map.</a>
 <p>
-<a href="../pic/heart_e2.jpg">Scale 5 of second derivative map.</a>
+<a href="https://raw.githubusercontent.com/mda-sw/library/master/pic/heart_e2.jpg">Scale 5 of second derivative map.</a>
 
 <p>
 <pre>
